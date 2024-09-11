@@ -1,0 +1,33 @@
+.dashboard{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 25px 0px;
+}
+
+.dashboard-content1{
+    width: 100%;
+    height: 425px;
+    background-color: rgb(246, 246, 247);
+    padding: 10px;
+}
+
+.dashboard-content2{
+    width: 47%;
+    height: 375px;
+    background-color: rgb(246, 246, 247);
+    padding: 10px;
+    margin: 25px 10px 25px 0px;
+}
+
+.dashboard-content3{
+    width: 46%;
+    height: 375px;
+    background-color: rgb(246, 246, 247);
+    padding: 10px;
+    margin: 25px 0px 25px 10px;
+}

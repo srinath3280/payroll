@@ -1,0 +1,41 @@
+.training{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.training h1{
+    font-size: 22px;
+    text-align: start;
+}
+
+.training-links{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(222, 223, 224);
+    padding: 15px 0px;
+
+}
+
+.training-links div a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.training-links-divide{
+    height: 25px;
+    border: 1px solid grey;
+}
+
+.training-content{
+    width: 100%;
+    height: auto;
+}

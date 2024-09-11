@@ -1,0 +1,58 @@
+.home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home-bar {
+    width: 19%;
+    height: 950px;
+    background-color: rgb(7, 7, 53);
+    color: white;
+    text-align: start;
+    padding: 0px 25px;
+}
+
+.home-content {
+    width: 75%;
+    height: auto;
+    padding: 0px 25px;
+}
+
+.home-bar h1 {
+    font-size: 18px;
+    color: rgb(163, 161, 161);
+}
+
+.home-bar-list {
+    width: auto;
+    height: auto;
+}
+
+.home-bar-list-items {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 35px 0px;
+}
+
+.home-bar-list-items .bi-columns-gap,
+.bi-check2-square,
+.bi-diagram-3,
+.bi-fuel-pump {
+    font-size: 25px;
+    color: rgb(226, 227, 228);
+}
+
+.home-bar-list-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px 0px 0px 15px;
+}
